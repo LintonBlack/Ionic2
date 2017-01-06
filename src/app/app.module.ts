@@ -5,6 +5,8 @@ import { AboutPage } from '../pages/about/about';
 import { SettingsPage } from '../pages/settings/settings';
 import { RedditsPage } from '../pages/reddits/reddits';
 import { DetailsPage } from '../pages/details/details';
+import { UserPage } from '../pages/userpage/userpage';
+import { SignupPage } from '../pages/signup/signup';
 import { HomePage } from '../pages/home/home';
 import { TabsPage } from '../pages/tabs/tabs';
 
@@ -15,7 +17,9 @@ import { TabsPage } from '../pages/tabs/tabs';
     RedditsPage,
     SettingsPage,
     TabsPage,
-    DetailsPage
+    DetailsPage,
+    UserPage,
+    SignupPage
   ],
   imports: [
     IonicModule.forRoot(MyApp)
@@ -27,7 +31,9 @@ import { TabsPage } from '../pages/tabs/tabs';
     SettingsPage,
     AboutPage,
     TabsPage,
-    DetailsPage
+    DetailsPage,
+    UserPage,
+    SignupPage
   ],
   providers: [{provide: ErrorHandler, useClass: IonicErrorHandler}]
 })
